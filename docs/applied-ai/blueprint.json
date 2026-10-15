@@ -1,0 +1,127 @@
+{
+  "examBlueprint": {
+    "courseCodes": [
+      "EECE101",
+      "AIE10"
+    ],
+    "examDate": "2026-10-16",
+    "windowStart": "2026-10-16T10:00:00+08:00",
+    "windowEnd": "2026-10-16T12:00:00+08:00",
+    "durationMinutes": 120,
+    "actualExamQuestionCount": 50,
+    "questionTypeCounts": {
+      "mcq": 15,
+      "scenario_mcq": 5,
+      "multi_select": 5,
+      "true_false": 15,
+      "fill_blank": 10
+    },
+    "backtrackingAllowed": false,
+    "attemptsWithinWindow": 2,
+    "grading": "highest_attempt",
+    "aiUseDuringExam": "prohibited",
+    "coveredModules": [
+      1,
+      2,
+      3
+    ],
+    "coveredLessons": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "practiceDesign": {
+    "questionCount": 200,
+    "mockCount": 4,
+    "questionsPerMock": 50,
+    "moduleWeightSource": "Editorial estimate from topic-pointer density; no module weights were announced.",
+    "moduleWeights": {
+      "module-1": 0.2,
+      "module-2": 0.5,
+      "module-3": 0.3
+    },
+    "mode": "Untimed study mode with immediate feedback and free navigation; no claim of reproducing Blackboard controls.",
+    "blankGrading": "Explicit aliases; trim and collapse whitespace; case-insensitive unless caseSensitive=true for exact syntax."
+  },
+  "modules": [
+    {
+      "id": "module-1",
+      "number": 1,
+      "title": "Data Workflows and Preprocessing",
+      "questionCount": 40
+    },
+    {
+      "id": "module-2",
+      "number": 2,
+      "title": "Validation, Metrics, Model Selection and MLOps",
+      "questionCount": 100
+    },
+    {
+      "id": "module-3",
+      "number": 3,
+      "title": "Neural Networks, CNNs, Transfer Learning and Responsible AI",
+      "questionCount": 60
+    }
+  ],
+  "mocks": [
+    {
+      "id": "mock-1",
+      "number": 1,
+      "title": "Practice Set 1",
+      "questionCount": 50,
+      "questionTypeCounts": {
+        "mcq": 15,
+        "scenario_mcq": 5,
+        "multi_select": 5,
+        "true_false": 15,
+        "fill_blank": 10
+      }
+    },
+    {
+      "id": "mock-2",
+      "number": 2,
+      "title": "Practice Set 2",
+      "questionCount": 50,
+      "questionTypeCounts": {
+        "mcq": 15,
+        "scenario_mcq": 5,
+        "multi_select": 5,
+        "true_false": 15,
+        "fill_blank": 10
+      }
+    },
+    {
+      "id": "mock-3",
+      "number": 3,
+      "title": "Practice Set 3",
+      "questionCount": 50,
+      "questionTypeCounts": {
+        "mcq": 15,
+        "scenario_mcq": 5,
+        "multi_select": 5,
+        "true_false": 15,
+        "fill_blank": 10
+      }
+    },
+    {
+      "id": "mock-4",
+      "number": 4,
+      "title": "Practice Set 4",
+      "questionCount": 50,
+      "questionTypeCounts": {
+        "mcq": 15,
+        "scenario_mcq": 5,
+        "multi_select": 5,
+        "true_false": 15,
+        "fill_blank": 10
+      }
+    }
+  ]
+}
